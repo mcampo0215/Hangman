@@ -26,6 +26,7 @@ function guessLetter() {
     //no guessing until a word is chosen
     if (!gameStarted) {
         alert("You must start the game first");
+        clear();
         return;
     }
 
